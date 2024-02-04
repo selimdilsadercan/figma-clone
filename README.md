@@ -9,11 +9,12 @@
 - [x] html, body, :root { height: 100% } thing at app/globals.css
 
 - [x] create liveblocks project and rename it
-- [ ] "npm i @liveblocks/client @liveblocks/react"
-- [ ] "npx create-liveblocks-app@latest" and add key to .env as LIVEBLOCKS_SECRET_KEY
-- [ ] add Room.tsx
-- [ ] "npm i @liveblocks/node"
-- [ ] create /app/api/liveblocks-auth
+- [x] "npm i @liveblocks/client @liveblocks/react"
+- [x] "npx create-liveblocks-app@latest --init --framework react"
+- [x] if auth will be than copy LIVEBLOCKS_SECRET_KEY and create api route else copy NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY
+- [x] add Room.tsx
+
+- [x] "npm i fabric"
 
 ---
 

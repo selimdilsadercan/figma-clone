@@ -1,5 +1,4 @@
-function Page() {
-  return <div className=""></div>;
-}
+import dynamic from "next/dynamic";
 
-export default Page;
+const Canvas = dynamic(() => import("../components/Canvas"), { ssr: false });
+export default Canvas;
