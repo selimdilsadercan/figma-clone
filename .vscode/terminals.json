@@ -1,0 +1,9 @@
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "website",
+      "command": "npm run dev"
+    }
+  ]
+}
